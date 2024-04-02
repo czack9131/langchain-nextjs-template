@@ -1,0 +1,96 @@
+{
+	"folders": [
+		{
+			"name": "CS Capstone",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"files.autoSave": "afterDelay",
+		"editor.fontSize": 20,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit"
+		},
+		"editor.minimap.enabled": false,
+		"[*]": {
+			"editor.linkedEditing": true
+		},
+		"[html]": {
+			"editor.defaultFormatter": "vscode.html-language-features",
+			"editor.linkedEditing": true
+		},
+		"html.format.maxPreserveNewLines": 1,
+		"html.format.templating": true,
+		"html.trace.server": "verbose",
+		"git.enableSmartCommit": true,
+		"git.confirmSync": false,
+		"git.autofetch": true,
+		"explorer.confirmDragAndDrop": false,
+		"less.format.spaceAroundSelectorSeparator": true,
+		"css.format.spaceAroundSelectorSeparator": true,
+		"scss.format.spaceAroundSelectorSeparator": true,
+		"notebook.formatOnSave.enabled": true,
+		"[css]": {
+			"editor.defaultFormatter": "vscode.css-language-features"
+		},
+		"git.openRepositoryInParentFolders": "always",
+		"vsintellicode.features.python.deepLearning": "enabled",
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"workbench.editor.enablePreview": false,
+		"[xml]": {
+			"editor.defaultFormatter": "vscode.html-language-features"
+		},
+		"js/ts.implicitProjectConfig.checkJs": true,
+		"js/ts.implicitProjectConfig.target": "ES6",
+		"javascript.format.semicolons": "insert",
+		"javascript.suggest.completeFunctionCalls": true,
+		"typescript.format.semicolons": "insert",
+		"typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+		"js/ts.implicitProjectConfig.module": "ES6",
+		"window.zoomLevel": 1,
+		"files.exclude": {
+			"**/*.js": {
+				"when": "$(basename).ts"
+			},
+			"**/**.js": {
+				"when": "$(basename).tsx"
+			}
+		},
+		"[javascript][typescript][typescriptreact]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+		"workbench.startupEditor": "none",
+		"javascript.updateImportsOnFileMove.enabled": "always",
+		"typescript.updateImportsOnFileMove.enabled": "always",
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"prettier.configPath": "./.prettierrc",
+		"typescript.format.enable": true,
+		"terminal.integrated.shellIntegration.suggestEnabled": false,
+		"[markdown]": {
+			"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+		},
+		"[sql]": {
+			"editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+		},
+		"editor.tabSize": 2,
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.black-formatter"
+		},
+		"git.ignoreLimitWarning": true,
+		"eslint.debug": true,
+		"rewrap.autoWrap.enabled": true,
+		"rewrap.wrappingColumn": 85,
+		"prettier.requireConfig": true,
+		"[latex]": {
+			"editor.wordWrap": "wordWrapColumn",
+			"editor.defaultFormatter": "James-Yu.latex-workshop",
+			"editor.formatOnSave": true,
+			"files.autoSave": "afterDelay",
+			"editor.fontSize": 20,
+			"editor.tabSize": 2
+		},
+		"typescript.tsdk": "node_modules\\typescript\\lib"
+	}
+}

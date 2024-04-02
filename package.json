@@ -16,6 +16,7 @@
     "@langchain/community": "^0.0.39",
     "@langchain/openai": "^0.0.20",
     "@next/bundle-analyzer": "^13.4.19",
+    "@prisma/client": "^5.11.0",
     "@supabase/supabase-js": "^2.32.0",
     "@types/node": "20.4.5",
     "@types/react": "18.2.17",
@@ -26,6 +27,8 @@
     "eslint-config-next": "13.4.12",
     "langchain": "^0.1.28",
     "next": "14.0.1",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.11.4",
     "postcss": "8.4.27",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -36,7 +39,8 @@
     "zod-to-json-schema": "^3.21.4"
   },
   "devDependencies": {
-    "prettier": "3.0.0"
+    "prettier": "3.0.0",
+    "prisma": "^5.11.0"
   },
   "resolutions": {
     "@langchain/core": "0.1.47"
