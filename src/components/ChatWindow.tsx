@@ -74,6 +74,7 @@ export function ChatWindow(props: {
           ...sourcesForMessages,
           [messageIndexHeader]: sources
         });
+        console.log({ sources, sourcesForMessages });
       }
     },
     onError: (e) => {
