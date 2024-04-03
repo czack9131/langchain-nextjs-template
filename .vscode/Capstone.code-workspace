@@ -65,7 +65,7 @@
 		"javascript.updateImportsOnFileMove.enabled": "always",
 		"typescript.updateImportsOnFileMove.enabled": "always",
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
-		"prettier.configPath": "./.prettierrc",
+		"prettier.configPath": "./.vscode/.prettierrc",
 		"typescript.format.enable": true,
 		"terminal.integrated.shellIntegration.suggestEnabled": false,
 		"[markdown]": {
